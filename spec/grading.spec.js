@@ -32,6 +32,8 @@ describe ("Grading Tests: ", function () {
    });
 
    it("HTML includes the correct number of certain elements", function() {
+         console.log(container);
+         console.log(container.body);
          let pElements = container.body.getElementsByTagName("P").length;
          let headerElements = container.body.getElementsByTagName("Header").length;
          let footerElements = container.body.getElementsByTagName("Footer").length;
