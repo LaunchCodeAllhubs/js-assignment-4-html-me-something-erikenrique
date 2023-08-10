@@ -1,1 +1,52 @@
-/* Write your CSS here! */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+nav, ul, li {
+    display: inline-block;
+	margin-right: 1em;
+	font-size: 0.9em;
+}
+
+header, h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 8px;
+    display: block;
+}
+  
+h1 {
+    font-size: 24px;
+    color: #1464A5;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+h1, p {
+    padding: 20px;
+}
+
+#mainHeading {
+    color: red;
+}
+  
+.funParagraph {
+    color: green;
+}
+
+#topbar {
+    height: 43px;
+    width: 100%;
+    background-image: url(images/topbar-bg.gif);
+    background-repeat: repeat-x;
+}
